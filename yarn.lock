@@ -943,6 +943,14 @@
     cssnano-preset-default "^4.0.0"
     postcss "^7.0.0"
 
+"@lucianodltec/monaco-editor-vue@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@lucianodltec/monaco-editor-vue/-/monaco-editor-vue-1.0.5.tgz#27fb00ebb1defbb36c96e1c5a4a8852b05e7ad1a"
+  integrity sha512-0+tTJpXsQOZ/BCHKz2NsPQnhXioM5rcQfgRCmPJRTz7GhFjIEG8JHuRkWCxFNHKFPoMyp4DjvCeqmyLce5H/Eg==
+  dependencies:
+    monaco-editor "^0.21.3"
+    vue "^2.6.11"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -5428,6 +5436,36 @@ mkdirp@^0.5.1, mkdirp@^0.5.3, mkdirp@^0.5.5, mkdirp@~0.5.1:
   integrity sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ==
   dependencies:
     minimist "^1.2.5"
+
+monaco-editor-vue@^1.0.10:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/monaco-editor-vue/-/monaco-editor-vue-1.0.10.tgz#56d9f928ec16864054f989de0558e11fcda045e9"
+  integrity sha512-FO6rioCXkonKmDZYB2WDhDNekXuNJgjxoAPfzwYX+5NTMaxRJcWl3bcUByRpL6LQQ1bTEYLZ+ZdDpoJ+la2trQ==
+  dependencies:
+    monaco-editor "^0.19.3"
+    vue "^2.6.11"
+
+monaco-editor-webpack-plugin@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/monaco-editor-webpack-plugin/-/monaco-editor-webpack-plugin-3.1.0.tgz#972efc47a91b3bf3bd977885684a3180eb8f341b"
+  integrity sha512-TP5NkCAV0OeFTry5k/d60KR7CkhTXL4kgJKtE3BzjgbDb5TGEPEhoKmHBrSa6r7Oc0sNbPLZhKD/TP2ig7A+/A==
+  dependencies:
+    loader-utils "^2.0.0"
+
+monaco-editor@^0.19.3:
+  version "0.19.3"
+  resolved "https://registry.yarnpkg.com/monaco-editor/-/monaco-editor-0.19.3.tgz#1c994b3186c00650dbcd034d5370d46bf56c0663"
+  integrity sha512-2n1vJBVQF2Hhi7+r1mMeYsmlf18hjVb6E0v5SoMZyb4aeOmYPKun+CE3gYpiNA1KEvtSdaDHFBqH9d7Wd9vREg==
+
+monaco-editor@^0.21.3:
+  version "0.21.3"
+  resolved "https://registry.yarnpkg.com/monaco-editor/-/monaco-editor-0.21.3.tgz#3381b66614b64d1c5e3b77dd5564ad496d1b4e5d"
+  integrity sha512-9N7wATLpi+googstvtm6IKg97vPQ77FDYEpkow5tLriM/VJ0DaTRyUP4UVzcoH7KlPDX+e/rE7/imcOUeGkT6g==
+
+monaco-editor@^0.24.0:
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/monaco-editor/-/monaco-editor-0.24.0.tgz#990b55096bcc95d08d8d28e55264c6eb17707269"
+  integrity sha512-o1f0Lz6ABFNTtnEqqqvlY9qzNx24rQZx1RgYNQ8SkWkE+Ka63keHH/RqxQ4QhN4fs/UYOnvAtEUZsPrzccH++A==
 
 move-concurrently@^1.0.1:
   version "1.0.1"

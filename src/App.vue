@@ -1,28 +1,27 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <MonacoEditor
+      v-model="val"
+      width="800"
+      height="500"
+      theme="vs-dark"
+      language="javascript"
+    ></MonacoEditor>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MonacoEditor from 'monaco-editor-vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MonacoEditor
+  },
+  data() {
+    return {
+      val: 'const x = 1'
+    }
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
